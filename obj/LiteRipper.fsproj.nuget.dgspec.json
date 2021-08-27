@@ -37,6 +37,11 @@
               "target": "Package",
               "version": "[5.0.0, )",
               "generatePathProperty": true
+            },
+            "JaggerJo.Avalonia.FuncUI.Elmish": {
+              "target": "Package",
+              "version": "[0.4.0, )",
+              "generatePathProperty": true
             }
           },
           "imports": [

@@ -3,6 +3,8 @@ namespace LiteRipper
 open System.IO
 open System
 
+open LiteRipper.FileSystem
+
 module Utils =
 
     let round (x: float, d: int) =
