@@ -1,0 +1,12 @@
+<UserControl Name="child" xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:main="clr-namespace:LiteRipper.UI"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="LiteRipper.UI.Controls.DrivePicker">
+  <WrapPanel>
+    <ComboBox MinWidth="200" Margin="5" x:Name="drivePicker" SelectedItem="{Binding SelectedDrive}" Items="{Binding Drives}"/>
+    <TextBlock Margin="5,12.5" Text="{Binding DriveSize}"/>
+  </WrapPanel>
+</UserControl>

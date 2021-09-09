@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FileSystem/IFileSystemObject.fs" />
+    <Compile Include="FileSystem/Folder.fs" />
+    <Compile Include="FileSystem/File.fs" />
+    <Compile Include="FileSystem/Drive.fs" />
+    <Compile Include="FileSystem/FileSystemObjectBuilder.fs" />
+    <Compile Include="Utils/Utils.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="JaggerJo.Avalonia.FuncUI.Elmish" Version="0.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DiscUtilsWrapper\LiteRipper.DiscUtilsWrapper.csproj" />
+  </ItemGroup>
+</Project>
